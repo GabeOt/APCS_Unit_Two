@@ -6,6 +6,15 @@ public class FourRectanglePrinter {
 
         Rectangle box = new Rectangle(5, 3, 7, 13);
         System.out.println(box);
+        box.translate(7,0);
+        System.out.println(box);
+        box.translate(0,13);
+        System.out.println(box);
+        box.translate(-7,0);
+        System.out.println(box);
+
+
+
 
         // Use the translate method to move the box over to the right.
 
